@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Witcher - QUIZ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nickname">   Nickname</string>
+    <string name="Email">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="Signup">Sign up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="create_account">Create account</string>
+    <string name="MainActivity">Main Activity</string>
+    <string name="Registration">Registration</string>
+    <string name="Login">Login</string>
+    <string name="action_Logout">Logout</string>
+    <string name="LoginButton">Log in</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6555234985187895/8237043477</string>
+    <string name="back_to_menu">Menu główne</string>
+
+    <string name="facebook_app_id">622854231912909</string>
+    <string name="fb_login_protocol_scheme">fb622854231912909</string>
+    <string name="Score">Twój wynik:</string>
+    <string name="ranking">Ranking</string>
+    <string name="newGame">Nowa Gra</string>
+
+    <string name="shop">Sklep</string>
+    <string name="store_50hp">50 wigoru - 5 zł</string>
+    <string name="store_150hp">150 wigoru - 10 zł</string>
+    <string name="store_fullHp">99999 wigoru - 20 zł</string>
+    <string name="store_LeaguePoints">Punkty Ligowe</string>
+    <string name="store_LpBoost10">Boost Pl 10 gier - 5 zł</string>
+    <string name="store_LpBoost25">Boost Pl 25 gier - 10 zł</string>
+    <string name="store_LpDeff25">Ochrona utraty Pl 25 gier - 10 zł</string>
+    <string name="store_LpDeff10">Ochrona utraty Pl 10 gier - 5 zł</string>
+    <string name="nav_open_drawer">test1</string>
+    <string name="nav_close_draver">test2</string>
+    <string name="store_Hp">Dodatkowy wigor</string>
+    <string name="Book">Książka</string>
+    <string name="Game">Gra</string>
+    <string name="Serial">Serial</string>
+    <string name="Cattegory">Kategorie</string>
+    <string name="Game1">Wiedźmin 1</string>
+    <string name="Game2">Wiedźmin 2</string>
+    <string name="Game3">Wiedźmin 3</string>
+    <string name="Season1">Sezon 1</string>
+    <string name="ComingSon">Comming Son...</string>
+    <string name="Book1">Ostatnie Życzenie</string>
+    <string name="Book2">Miecz Przeznaczenia</string>
+    <string name="Book3">Krew Elfów</string>
+    <string name="book4">Czas Pogardy</string>
+    <string name="Book5">Chrzest Ognia</string>
+    <string name="Book6">Wieża Jaskółki</string>
+    <string name="Book7">Pani Jeziora</string>
+    <string name="rankingPosition">Twoja pozycja w rankingu:</string>
+    <string name="LoginButtonFacebook">LOG IN FACEBOOK</string>
+    <string name="private_policy">Privacy Policy</string>
+    <string name="producentsInfoMenu"><![CDATA[Producents & Assets]]></string>
+    <string name="Book8">Sezon Burz</string>
+    <string name="questionNew">Pytanie</string>
+    <string name="answer1NewQuestion">Odpowiedź 1</string>
+    <string name="answer2NewQuestion">Odpowiedź 2</string>
+    <string name="answer3NewQuestion">Odpowiedź 3</string>
+    <string name="Send">Wyślij</string>
+    <string name="newQuestionMenu">Prześlij nowe pytanie</string>
+    <string name="updateMenuInfo">Aktualności</string>
+    <string name="LoginButtonGoogle">LOG IN GOOGLE</string>
+
+</resources>

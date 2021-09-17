@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/action_Logout"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/hpReset"
+        android:title="Reset HP"
+        app:showAsAction="always"
+        android:orderInCategory="95"
+        android:icon="@drawable/plushp"/>
+
+    <item android:id="@+id/private_policy"
+        android:title="@string/private_policy"
+        android:orderInCategory="99"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/producents_info"
+        android:title="@string/producentsInfoMenu"
+        app:showAsAction="never"
+        android:orderInCategory="98"
+        android:icon="@drawable/plushp"/>
+
+    <item android:id="@+id/newQuestionsMenu"
+        android:title="@string/newQuestionMenu"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="97"
+        android:icon="@drawable/doc"/>
+
+    <item android:id="@+id/updateInfoMenu"
+        android:title="@string/updateMenuInfo"
+        app:showAsAction="never"
+        android:orderInCategory="96" />
+</menu>

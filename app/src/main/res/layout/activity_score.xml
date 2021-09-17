@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern"
+    tools:context=".ScoreActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/toolbar_main"
+                android:id="@+id/toolbar_main"/>
+
+            <TextView
+                android:id="@+id/score_main"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/Score"
+                android:gravity="center"
+                android:textColor="#A6A6A6"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="225dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_field"
+                android:gravity="center"
+                android:textColor="#A6A6A6"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#A6A6A6"
+                android:textSize="20sp"
+                android:id="@+id/feedback"/>
+
+            <ImageView
+                android:id="@+id/division"
+                android:layout_width="@dimen/ScoreActivityImageViewWidth"
+                android:layout_height="@dimen/ScoreActivityImageViewHeight"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/Lp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#A6A6A6"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:id="@+id/hp_number"/>
+
+            <ImageButton
+                android:id="@+id/hp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:onClick="OnClickShowMessageAboutHp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textColor="#A6A6A6"
+                android:background="@drawable/startbtn"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:onClick="onClickNewGame"
+                android:textSize="22sp"
+                android:text="@string/newGame" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textSize="22sp"
+                android:textColor="#A6A6A6"
+                android:background="@drawable/startbtn"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:onClick="OnClickBackToMenu"
+                android:layout_marginBottom="70dp"
+                android:text="@string/back_to_menu" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

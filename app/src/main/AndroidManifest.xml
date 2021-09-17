@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sm.witherquiz">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_witcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_witcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CheckoutActivity">
+
+        </activity>
+        <activity android:name=".PaymentsUtil" />
+        <activity
+            android:name=".Menu.NewQuestionsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Menu.ProducentsInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.PrivatePolicyURLActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Quizes.QuizGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Quizes.QuizBookActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCattegory.SerialCattegoryActivity"
+            android:label="@string/Serial"
+            android:parentActivityName=".QuizCattegory.MainCattegoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCattegory.GameCattegoryActivity"
+            android:label="@string/Game"
+            android:parentActivityName=".QuizCattegory.MainCattegoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCattegory.BookCattegoryActivity"
+            android:label="@string/Book"
+            android:parentActivityName=".QuizCattegory.MainCattegoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCattegory.MainCattegoryActivity"
+            android:label="@string/Cattegory"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RankBoard.BoardActivity"
+            android:label="Ranking"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LogoActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Login.SignInActivity"
+            android:label="@string/Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Login.SignUpActivity"
+            android:label="@string/Registration"
+            android:parentActivityName=".Login.SignInActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Quizes.QuizSerialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6555234985187895~6639222470" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <service android:name=".UpdateHpService" />
+    </application>
+
+</manifest>

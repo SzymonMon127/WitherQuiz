@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469545664754",
+    "firebase_url": "https://witcherquiz.firebaseio.com",
+    "project_id": "witcherquiz",
+    "storage_bucket": "witcherquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469545664754:android:5acdf8b97cfa0ac7be106b",
+        "android_client_info": {
+          "package_name": "com.sm.witherquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469545664754-mpqhqsl135isi343phto92krprf5eo1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sm.witherquiz",
+            "certificate_hash": "8bcba1675035cafb5574fd0db1647a593e90f797"
+          }
+        },
+        {
+          "client_id": "469545664754-qgkf99i8toi8gaefrl86hh08ulbjic9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR2spMI20PIyFsytPUAHiXABmbAyUipfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469545664754-qgkf99i8toi8gaefrl86hh08ulbjic9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item android:title="@string/store_Hp"
+        android:id="@+id/storeHp">
+        <menu>
+            <item
+                android:id="@+id/hp50"
+                android:icon="@drawable/hp_icon"
+                android:title="@string/store_50hp"
+                android:checked="true"/>
+
+            <item
+                android:id="@+id/hp150"
+                android:icon="@drawable/hp_icon"
+                android:checked="true"
+                android:title="@string/store_150hp"/>
+
+            <item
+                android:id="@+id/hpFull"
+                android:icon="@drawable/hp_icon"
+                android:checked="true"
+                android:title="@string/store_fullHp" />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/store_LeaguePoints"
+        android:id="@+id/storeLp">
+        <menu>
+            <item
+                android:title="@string/store_LpBoost10"
+                android:id="@+id/LpBoost10"
+                android:checked="true"/>
+
+            <item
+            android:id="@+id/LpBoost25"
+            android:title="@string/store_LpBoost25"
+                android:checked="true"/>
+
+            <item
+                android:id="@+id/LpDeff10"
+                android:title="@string/store_LpDeff10"
+                android:checked="true"/>
+
+            <item
+                android:id="@+id/LpDeff25"
+                android:title="@string/store_LpDeff25"
+                android:checked="true"/>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

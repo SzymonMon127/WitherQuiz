@@ -1,0 +1,137 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    // MainActivity
+
+    <dimen name="MainActivityUserNameTextViewTextSize">40dp</dimen>
+
+    <dimen name="MainActivityImageViewWidth">200dp</dimen>
+    <dimen name="MainActivityImageViewHeight">150dp</dimen>
+    <dimen name="MainActivityImageViewMarginTop">12dp</dimen>
+
+    //punkty ligowe
+    <dimen name="MainActivityLeaguePointsTextViewTextSize">25dp</dimen>
+
+    //button start and zamknij
+    <dimen name="MainActivityButtonWidth">300dp</dimen>
+    <dimen name="MainActivityButtonHeight">50dp</dimen>
+    <dimen name="MainActivityButtonTextSize">22dp</dimen>
+    <dimen name="MainActivityButtonMarginTop">20dp</dimen>
+
+    //button ranking
+    <dimen name="MainActivityButtonRankWidth">150dp</dimen>
+    <dimen name="MainActivityButtonRankHeight">45dp</dimen>
+    <dimen name="MainActivityButtonRankTextSize">16dp</dimen>
+    <dimen name="MainActivityButtonRankMarginStart">20dp</dimen>
+    <dimen name="MainActivityButtonRankMarginBottom">15dp</dimen>
+
+    //textView
+    <dimen name="MainActivityTextViewWidth">125dp</dimen>
+    <dimen name="MainActivityTextViewMarginEnd">25dp</dimen>
+    <dimen name="MainActivityTextViewMarginBottom">10dp</dimen>
+    <dimen name="MainActivityTextViewTextSize">20dp</dimen>
+
+    //ImageButton HP
+    <dimen name="MainActivityImageButtonWidth">145dp</dimen>
+    <dimen name="MainActivityImageButtonHeight">40dp</dimen>
+    <dimen name="MainActivityImageButtonMarginEnd">20dp</dimen>
+    <dimen name="MainActivityImageButtonMarginBottom">20dp</dimen>
+
+
+    // Activity Quiz
+
+    <dimen name="QuizActivityFrameLayout">520dp</dimen>
+
+    <dimen name="QuizActivityButtonWidth">105dp</dimen>
+    <dimen name="QuizActivityButtonHeight">60dp</dimen>
+    <dimen name="QuizActivityButtonMarginTop">10dp</dimen>
+    <dimen name="QuizActivityButtonMarginEnd">15dp</dimen>
+    <dimen name="QuizActivityButtonMarginBottom">15dp</dimen>
+
+    <dimen name="QuizActivityTextViewTextSize">30dp</dimen>
+
+
+    // Activity Score
+
+    //Text View Score Main and Score
+    <dimen name="ScoreActivityTextViewWidth">225dp</dimen>
+    <dimen name="ScoreActivityTextViewHeight">60dp</dimen>
+    <dimen name="ScoreActivityTextViewTextSize">32dp</dimen>
+    <dimen name="ScoreActivityTextViewScoreTextSize">28sp</dimen>
+    <dimen name="ScoreActivityTextViewMarginTop">10dp</dimen>
+
+
+    //Image View
+    <dimen name="ScoreActivityImageViewWidth">200dp</dimen>
+    <dimen name="ScoreActivityImageViewHeight">130dp</dimen>
+
+    <dimen name="ScoreActivityTextViewTextSizeFeedbackAndLp">20dp</dimen>
+
+    <dimen name="ScoreActivityTextViewTextSizeHpNumber">20dp</dimen>
+
+    //ImageButton
+    <dimen name="ScoreActivityImageButtonWidth">170dp</dimen>
+    <dimen name="ScoreActivityImageButtonHeight">50dp</dimen>
+
+    //Button
+    <dimen name="ScoreActivityButtonWidth">300dp</dimen>
+    <dimen name="ScoreActivityButtonHeight">50dp</dimen>
+    <dimen name="ScoreActivityButtonTextSize">18dp</dimen>
+
+
+    // Activity Sign In
+
+    //Edit Text
+    <dimen name="SignInActivityEditTextWidth">325dp</dimen>
+    <dimen name="SignInActivityEditTextHeight">50dp</dimen>
+    <dimen name="SignUpActivityEditTextMarginTop">20dp</dimen>
+    <dimen name="SignInActivityEditTextPasswordMarginTop">30dp</dimen>
+
+    //Button
+    <dimen name="SignInActivityButtonWidth">300dp</dimen>
+    <dimen name="SignInActivityButtonHeight">50dp</dimen>
+    <dimen name="SignInActivityButtonMarginTop">40dp</dimen>
+    <dimen name="SignInActivityButtonTextSize">22dp</dimen>
+
+    <dimen name="SignInActivityButtonCreateWidth">210dp</dimen>
+    <dimen name="SignInActivityButtonCreateHeight">50dp</dimen>
+    <dimen name="SignInActivityButtonCreateMarginStart">110dp</dimen>
+    <dimen name="SignInActivityButtonCreateMarginEnd">110dp</dimen>
+    <dimen name="SignInActivityButtonCreateMarginBottom">15dp</dimen>
+
+
+    // Fragment Question2
+
+    //Image View
+    <dimen name="Question2FragmentImageViewMargTop">15dp</dimen>
+    <dimen name="Question2FragmentImageViewWidth">325dp</dimen>
+    <dimen name="Question2FragmentImageViewHeight">185dp</dimen>
+
+    //Text View
+    <dimen name="Question2FragmentTextViewTextSize">16dp</dimen>
+
+    //Button
+    <dimen name="Question2FragmentButtonHeight">50sp</dimen>
+    <dimen name="Question2FragmentButtonMargRight">50dp</dimen>
+    <dimen name="Question2FragmentButtonMargLeft">50dp</dimen>
+
+
+    // Fragment Sign Up
+
+    //Edit Text
+    <dimen name="SignUpFragmentEditTextHeight">50dp</dimen>
+    <dimen name="SignUpFragmentEditTextMarginTop">60dp</dimen>
+
+    //Button
+    <dimen name="SignUpFragmentButtonHeight">50dp</dimen>
+    <dimen name="SignUpFragmentButtonMarginTop">90dp</dimen>
+    <dimen name="SignUpFragmentButtonTextSize">18dp</dimen>
+
+    <dimen name="BookCattegoryButtonWidth">300dp</dimen>
+    <dimen name="BookCattegoryButtonHeight">50dp</dimen>
+
+</resources>
