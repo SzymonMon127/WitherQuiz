@@ -1338,7 +1338,7 @@ public class QuestionsDatabaseHelper extends SQLiteOpenHelper {
 
             insertQuestionBook3(db, "Co Emchyr zrobił z Marszałkami spod Sodden?", 0, "Nic", "Wychłostał ich", "Zabił ich", 0, 0);
             insertQuestionBook3(db, "Kto nie podpisał zawieszenia broni z Nilfgardem?", 0, "Eist Tuirseach", "Bran Tuirseach", "Crach an Craite", 0, 0);
-            insertQuestionBook3(db, "Który król zobowiązał się wytępić Scoia'tael w 6 miesięcy?", 0, "Vizimir", "Isengrim Faoiltiarna", "Nilfgard", 0, 0);
+            insertQuestionBook3(db, "Który król zobowiązał się wytępić Scoia'tael w 6 miesięcy?", 0, "Vizimir", "Foltest", "Meve", 0, 0);
             insertQuestionBook3(db, "Kto poruszył Scoia'tael do walki w obecnych czasach?", 0, "Iorweth", "Coen", "Vesemir", 0, 0);
             insertQuestionBook3(db, "Gdzie odbyło się spotkanie władców północy?", 0, "Tretogorze", "Wyzimie", "Hagge", 0, 0);
             insertQuestionBook3(db, "Co królowie północy zdecydowali zrobić z Ciri, gdyby ją znaleźli?", 0, "Oddać Cintrijczykom", "Wydać za mąż", "Zabić", 0, 0);

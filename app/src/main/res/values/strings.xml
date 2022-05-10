@@ -71,4 +71,7 @@
     <string name="updateMenuInfo">Aktualności</string>
     <string name="LoginButtonGoogle">LOG IN GOOGLE</string>
 
+    <string name="LoadingDatabase">Łączenie z bazą...</string>
+    <string name="noInternetConnection">Brak połączenia z internetem...</string>
+
 </resources>

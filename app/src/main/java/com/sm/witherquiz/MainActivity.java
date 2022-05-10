@@ -11,7 +11,6 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.SpannableString;
 import android.text.style.TextAppearanceSpan;
 import android.util.Log;
@@ -29,7 +28,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.room.Update;
 
 import com.facebook.AccessToken;
 import com.facebook.login.LoginManager;
@@ -53,10 +51,9 @@ import com.sm.witherquiz.Login.SignInActivity;
 import com.sm.witherquiz.Menu.NewQuestionsActivity;
 import com.sm.witherquiz.Menu.PrivatePolicyURLActivity;
 import com.sm.witherquiz.Menu.ProducentsInfoActivity;
-import com.sm.witherquiz.ObjectAndAdapters.UpdateInfo;
 import com.sm.witherquiz.ObjectAndAdapters.Person;
+import com.sm.witherquiz.ObjectAndAdapters.UpdateInfo;
 import com.sm.witherquiz.QuizCattegory.MainCattegoryActivity;
-import com.sm.witherquiz.Quizes.QuizBookActivity;
 import com.sm.witherquiz.RankBoard.BoardActivity;
 
 import org.apache.commons.lang3.StringUtils;
@@ -85,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private String updateInfo;
 
 
+
     int[][] state = new int[][] {
             new int[] {android.R.attr.state_checked},
             new int[] {-android.R.attr.state_checked}
@@ -101,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private void startMyService() {
         Intent serviceIntent = new Intent(this, UpdateHpService.class);
+
         startService(serviceIntent);
     }
 
@@ -821,7 +820,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         {
             FirebaseEmail = firebaseAuth.getInstance().getCurrentUser().getDisplayName();
             userName = StringUtils.substringBefore(FirebaseEmail, "@");
-            userName = userName.replace(".", "");
+
+
 
 
         }
@@ -848,12 +848,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                         UpdateInfo updateInfoObject = dataSnapshot.getValue(UpdateInfo.class);
                         updateInfo = updateInfoObject.updateInfo;
-
                     }
                     else
                     {
                         updateInfo = "W obecnej chwili brak informacji";
-
                     }
                     View view = new View(getApplicationContext());
                     showAlertDialogButtonClicked(view);
